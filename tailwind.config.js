@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {},
+    fontFamily: {
+      display: ["Poppins", "sans-serif"],
+      Ngothic: ["Nanum Gothic", "sans-serif"],
+    },
   },
   plugins: [],
 };

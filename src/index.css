@@ -4,6 +4,6 @@
 
 @layer components {
   .btn-style {
-    @apply px-2 py-1 rounded-md text-[#f8f8f8] cursor-pointer;
+    @apply px-2 py-1 rounded-md text-[#f8f8f8] cursor-pointer bg-opacity-50;
   }
 }
