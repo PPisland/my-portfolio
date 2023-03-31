@@ -5,16 +5,16 @@ function App() {
   //리턴 밖에선 이렇게 주석작성
 
   return (
-    <div className="bg-[#f7f7f7] min-h-screen">
-      {/* 안에선 이렇게 주석 달아야됨 근데 걍 Ctrl+ /쓰셈*/}
+    <div className="bg-[#131313] min-h-screen">
+      {/* 안에선 이렇게 주석 달아야됨 근데 걍 Ctrl + /쓰셈*/}
       <header className="h-[85px] md:h-[91px]">
         <div className="z-0">
           <img
-            className="w-full h-[85px] md:h-[91px] z-0"
+            className="w-full h-[85px] md:h-[91px] absolute  "
             src={HEADER}
             alt="header"
           />
-          <div className="max-w-screen-xl mx-auto  h-full flex justify-between items-center z-20">
+          <div className="max-w-screen-xl mx-auto  h-full flex justify-between items-center relative top-[50%] translate-y-[20%]">
             {/* <div>PPisland's Portfolio</div> */}
 
             <div>
