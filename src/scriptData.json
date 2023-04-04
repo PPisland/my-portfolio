@@ -1,32 +1,32 @@
 [
   {
     "title": "제목1",
-    "img": "/images/Calendar.PNG",
+    "img": "images/Calendar.PNG",
     "script": ["스크립트1"]
   },
   {
     "title": "제목2",
-    "img": "/images/f8eba5_ab89b416a2794ca4b5abf27fa2e4dc40_mv2.webp",
+    "img": "images/f8eba5_ab89b416a2794ca4b5abf27fa2e4dc40_mv2.webp",
     "script": ["스크립트2"]
   },
   {
     "title": "제목3",
-    "img": "",
+    "img": "images/2.webp",
     "script": ["스크립트4"]
   },
   {
     "title": "제목4",
-    "img": "",
+    "img": "images/3.webp",
     "script": ["스크립트4"]
   },
   {
     "title": "제목5",
-    "img": "",
+    "img": "images/4.webp",
     "script": ["스크립트5"]
   },
   {
     "title": "제목6",
-    "img": "",
+    "img": "images/5.webp",
     "script": ["스크립트6"]
   }
 ]

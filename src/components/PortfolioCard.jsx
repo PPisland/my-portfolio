@@ -1,4 +1,4 @@
-import IMG1 from "../images/Calendar.PNG";
+import { Link } from "react-router-dom";
 
 // const PortfolioCard = () => {
 //   return (
@@ -14,32 +14,23 @@ import IMG1 from "../images/Calendar.PNG";
 // };
 function PortfolioCard(props) {
   return (
-    <li className="inline-block bg-white shadow-md font-Ngothic border-4 hover:border-purple-400 ">
-      <div className=" font-bold text-[22px] flex justify-between">
+    <li className="inline-block w-[395px] bg-white shadow-md font-Ngothic border-[3px] hover:border-purple-400 ">
+      <div className=" font-bold text-[22px] flex justify-between px-3 ">
         {props.title}
-        <button>+</button>
+        <Link
+          to={`/a/${props.index}?title=${props.title}&img=${props.img}&script=${props.script}`}
+        >
+          <button>+</button>
+        </Link>
       </div>
-
       <div>
         <img
-          className="h-[320px] object-cover "
-          src={props.img}
-          alt={props.img}
+          className="w-full h-[320px] object-cover border-y-2"
+          src={`${process.env.PUBLIC_URL}/${props.img}`}
+          alt="project"
         />{" "}
-        {/* <img className=" object-cover" src={IMG1} alt="1" /> */}
-        {/* <ul>
-          {props.img.map((v, i) => {
-            return <img src={v} alt={v} />;
-          })}
-        </ul> */}
       </div>
-      <div>
-        <ul className=" p-2 text-[18px] min-h-[160px]">
-          {props.script.map((v, i) => {
-            return <li className="truncate">{v}</li>;
-          })}
-        </ul>
-      </div>
+      <div className="p-2 text-[18px] min-h-[160px]">{props.script}</div>
     </li>
   );
 }

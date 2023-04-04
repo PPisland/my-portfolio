@@ -1,5 +1,5 @@
-// import Logo from "../images/pubg-logo-battlegrounds.png";
 import HEADER from "../images/f8eba5_460d0bdab99f487188a17916c22a9abe_mv2.webp";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -11,16 +11,17 @@ const Header = () => {
       />
       <div className="max-w-screen-2xl mx-auto  h-full flex justify-between items-center relative top-[50%] translate-y-[-50%] ">
         {/* <div>PPisland's Portfolio</div> */}
-
         <div>
           {/* <img
             className="w-34 h:8 md:h-18  object-cover"
             src={Logo}
             alt="logo"
           /> */}
-          <div className="w-34 h-8 md:h-18 text-2xl font-bold text-white">
-            Portfolio
-          </div>
+          <Link to="/">
+            <button className="w-34 h-8 md:h-18 text-2xl font-bold text-white">
+              Portfolio
+            </button>
+          </Link>
         </div>
         <ul className="flex gap-2 md:gap-6 sm:text-sm text-xs md:text-base ">
           <li className="bg-indigo-300 bg-opacity-50 btn-style">Introduce</li>

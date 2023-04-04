@@ -1,22 +1,23 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Header from "./components/Header";
-import Introduce from "./components/Introduce";
-import Portfolio from "./components/Portfolio";
-import ContactMe from "./components/ContactMe";
 import Footer from "./components/Footer";
+import Main from "./pages/main";
+import Project from "./pages/Project";
 
 function App() {
-  //리턴 밖에선 이렇게 주석작성
-
   return (
-    <div className="bg-[#131313] min-h-screen font-display">
-      <Header></Header>
-      <main>
-        <Introduce></Introduce>
-        <Portfolio></Portfolio>
-        <ContactMe></ContactMe>
-      </main>
-      <Footer></Footer>
-    </div>
+    <BrowserRouter>
+      <div className="bg-[#131313] min-h-screen font-display flex flex-col">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/a/:projectId" element={<Project />} />
+        </Routes>
+
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
