@@ -5,6 +5,7 @@ function Project() {
 
   const title = searchParams.get("title");
   const script = searchParams.get("script");
+  const script2 = searchParams.get("script2");
   const image = searchParams.get("img");
 
   return (
@@ -13,8 +14,9 @@ function Project() {
         {/* 827x532 */}
         <img src={`${process.env.PUBLIC_URL}/${image}`} alt="project" />
       </div>
-      <div>{title}</div>
-      <div>{script}</div>
+      <div className="my-4 font-bold text-2xl">{title}</div>
+      <div className="">{script}</div>
+      <div className="">{script2}</div>
     </div>
   );
 }

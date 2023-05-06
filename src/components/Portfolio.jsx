@@ -16,6 +16,7 @@ const Portfolio = () => {
               index={i}
               img={v.img}
               script={v.script}
+              script2={v.script2}
             />
           );
         })}

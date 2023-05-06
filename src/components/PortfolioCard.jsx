@@ -14,11 +14,11 @@ import { Link } from "react-router-dom";
 // };
 function PortfolioCard(props) {
   return (
-    <li className="inline-block w-[395px] bg-white shadow-md font-Ngothic border-[3px] hover:border-purple-400 ">
+    <li className="inline-block w-[395px] bg-white shadow-md font-Ngothic border-[2px] hover:border-purple-400 ">
       <div className=" font-bold text-[22px] flex justify-between px-3 ">
         {props.title}
         <Link
-          to={`/a/${props.index}?title=${props.title}&img=${props.img}&script=${props.script}`}
+          to={`/a/${props.index}?title=${props.title}&img=${props.img}&script=${props.script}&script2=${props.script2}`}
         >
           <button>+</button>
         </Link>
@@ -30,7 +30,12 @@ function PortfolioCard(props) {
           alt="project"
         />{" "}
       </div>
-      <div className="p-2 text-[18px] min-h-[160px]">{props.script}</div>
+      <div className="p-2 font-semibold text-[15px] min-h-[20px]">
+        {props.script}
+      </div>
+      <div className="p-2 font-base text-[14px] min-h-[140px]">
+        {props.script2}
+      </div>
     </li>
   );
 }

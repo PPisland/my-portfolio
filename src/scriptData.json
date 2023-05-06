@@ -1,32 +1,40 @@
 [
   {
-    "title": "제목1",
+    "title": "Props를 이용한 Calendar",
     "img": "images/Calendar.PNG",
-    "script": ["스크립트1"]
+    "script": ["GIT : https://github.com/PPisland/Calendar"],
+    "script2": ["Props와 Map함수를 이용하여 만든 달력기능"]
   },
   {
-    "title": "제목2",
-    "img": "images/f8eba5_ab89b416a2794ca4b5abf27fa2e4dc40_mv2.webp",
-    "script": ["스크립트2"]
+    "title": "이상형 World-Cup",
+    "img": "images/Game2.PNG",
+    "script": ["page adress : https://world-cup-five-tau.vercel.app/"],
+    "script2": ["usestate와 useEffect를 활용한 이상형 월드컵 게임"]
   },
   {
-    "title": "제목3",
-    "img": "images/2.webp",
-    "script": ["스크립트4"]
+    "title": "Props를 이용한 Calendar",
+    "img": "images/updown.png",
+    "script": ["page adress : up-down.vercel.app"],
+    "script2": [
+      "UseContext 기능과 localstorage를 이용하여 점수를 저장하는 형태의 Up&Down 게임입니다"
+    ]
   },
   {
-    "title": "제목4",
-    "img": "images/3.webp",
-    "script": ["스크립트4"]
+    "title": "Props를 이용한 Calendar",
+    "img": "images/Calendar.PNG",
+    "script": ["깃 허브 주소 : https://github.com/PPisland/Calendar"],
+    "script2": ["깃 허브 주소 : https://github.com/PPisland/Calendar"]
   },
   {
-    "title": "제목5",
-    "img": "images/4.webp",
-    "script": ["스크립트5"]
+    "title": "Props를 이용한 Calendar",
+    "img": "images/Calendar.PNG",
+    "script": ["깃 허브 주소 : https://github.com/PPisland/Calendar"],
+    "script2": ["깃 허브 주소 : https://github.com/PPisland/Calendar"]
   },
   {
-    "title": "제목6",
-    "img": "images/5.webp",
-    "script": ["스크립트6"]
+    "title": "Props를 이용한 Calendar",
+    "img": "images/Calendar.PNG",
+    "script": ["깃 허브 주소 : https://github.com/PPisland/Calendar"],
+    "script2": ["깃 허브 주소 : https://github.com/PPisland/Calendar"]
   }
 ]
